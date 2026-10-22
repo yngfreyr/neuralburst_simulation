@@ -2,6 +2,11 @@
 
 from pathlib import Path
 
+import matplotlib
+
+# Use a non-interactive backend for terminal, notebooks, and Binder
+matplotlib.use("Agg")
+
 import matplotlib.pyplot as plt
 import pandas as pd
 
