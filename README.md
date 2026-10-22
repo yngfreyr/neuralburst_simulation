@@ -1,5 +1,7 @@
 # Neural Burst Simulation
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yngfreyr/neuralburst_simulation/main?urlpath=lab/tree/notebooks/demo_neural_burst_simulation.ipynb)
+
 A reproducible Python pipeline for simulating neural activity with transient beta bursts, detecting the bursts with NeuroDSP (`neurodsp-tools.github.io`), and visualizing the results.
 
 NeuroDSP is a toolbox for digital signal processing of neural time series. It also includes simulation tools for generating plausible simulations of neural time series.
@@ -21,6 +23,16 @@ Calculate burst statistics
         ↓
 Generate figures
 ```
+
+## Interactive Binder demo
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yngfreyr/neuralburst_simulation/main?urlpath=lab/tree/notebooks/demo_neural_burst_simulation.ipynb)
+
+[Launch the interactive Binder demo](https://mybinder.org/v2/gh/yngfreyr/neuralburst_simulation/main?urlpath=lab/tree/notebooks/demo_neural_burst_simulation.ipynb)
+
+Binder creates a temporary cloud environment directly from this repository, installs the specified Python dependencies, and opens the demonstration notebook without requiring a local installation.
+
+In this project, the Binder notebook runs the same `run_pipeline.py` workflow used from the command line, reproduces the simulated neural signal, detects beta bursts, calculates burst statistics, and displays the generated figures.
 
 ## Dependencies
 
